@@ -28,9 +28,8 @@ Users can generate and download a PDF report of the optimized route, which inclu
 - Timestamp of report generation
 - Complete list of delivery locations in order
 
-## Technical Architecture
+## Tech Stack
 
-## Technology Stack
 ### Backend
 - Python : Core programming language
 - Flask : Web framework for handling HTTP requests, routing, and serving the application
