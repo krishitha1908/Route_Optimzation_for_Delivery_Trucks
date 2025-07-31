@@ -1,6 +1,6 @@
 # Route Optimization for delivery trucks
 
-This project is a web application designed to optimize delivery routes for BigBasket using the Traveling Salesman Problem (TSP) algorithm.
+This project is a web application designed to optimize delivery routes using the Traveling Salesman Problem (TSP) algorithm.
 
 ## Core Functionality
 
