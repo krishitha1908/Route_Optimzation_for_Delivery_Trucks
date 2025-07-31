@@ -30,18 +30,21 @@ Users can generate and download a PDF report of the optimized route, which inclu
 
 ## Technical Architecture
 
-### Backend (Python/Flask)
-- **Flask Web Framework**: Handles HTTP requests and serves web pages
-- **MongoDB**: Stores cost matrices and optimized routes for caching purposes
-- **OpenRouteService API**: Provides real-time travel time and distance data
-- **TSP Algorithm**: Dynamic programming implementation to solve the Traveling Salesman Problem
-- **ReportLab**: Generates PDF reports of optimized routes
-
-### Frontend (HTML/CSS/JavaScript)
-- **Leaflet.js**: Interactive mapping library for displaying maps and routes
-- **Leaflet Routing Machine**: Displays routes between points on the map
-- **Nominatim API**: Geocoding service to convert coordinates to addresses
-- **Modern UI**: Clean, responsive design with animations and loading indicators
+## Technology Stack
+### Backend
+- Python : Core programming language
+- Flask : Web framework for handling HTTP requests, routing, and serving the application
+- MongoDB : NoSQL database used for storing cost matrices and caching optimization results
+- PyMongo : Python driver for MongoDB integration
+- ReportLab : PDF generation library for creating delivery route reports
+### Frontend
+- HTML/CSS/JavaScript : Core web technologies
+- Leaflet.js : JavaScript library for interactive maps
+- Leaflet Routing Machine : Extension for displaying routes on maps
+- jQuery : JavaScript library for DOM manipulation and animations
+### APIs
+- OpenRouteService API : External service for calculating real-time travel distances and durations
+- Nominatim API : Geocoding service for converting coordinates to addresses and vice versa
 
 ## Data Flow
 1. User selects delivery points on the map  
